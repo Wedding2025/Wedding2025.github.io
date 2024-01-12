@@ -6,6 +6,14 @@
     font-family: "Calligraphia";
     src: url("../fonts/ofont.ru_Calligraphia Two.ttf");
 }
+@font-face {
+    font-family: "GOST";
+    src: url("../fonts/GOST type A Standard.ttf");
+}
+@font-face {
+    font-family: "Scriptorama";
+    src: url("../fonts/Scriptorama Regular.ttf");
+}
 
 body {
     width: 99%;
@@ -56,9 +64,6 @@ body {
 .date p {
     margin-left: 2%;
 }
-p {
-    color: #666;
-}
 
 .invitation {
     text-align: center;
@@ -71,9 +76,7 @@ p {
     margin-top: 0%;
     margin-bottom: -2%;
 }
-.date {
-    color: #e44d26;
-}
+
 
 /* Медиа-запрос для мобильных устройств (iPhone, Android) */
 @media only screen and (max-width: 767px) {
@@ -116,6 +119,20 @@ p {
   p {
     font-size: 1em;
   }
+  .details h1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "GOST";
+    color: #7b5ca2;
+    font-size: 1.2em;
+    text-align: center;
+}
+.details h2 {
+    font-family: "Scriptorama";
+    font-size: 2.5em;
+    text-align: center;
+    color: #7b5ca2;
+}
   .details h3 {
     font-size: 1em;
   }
