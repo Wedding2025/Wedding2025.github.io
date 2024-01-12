@@ -91,7 +91,8 @@ p {
   }
   .date {
     text-align: right;
-    margin-right: 3%;
+    padding-bottom: 3%;
+    padding-bottom: 3%;
 }
   .date h2 {
     font-size: 2em;
@@ -101,7 +102,7 @@ p {
     font-size: 3em;
   }
   .invitation {
-    width: 50%;
+    width: -50%;
     align-items: right;
     text-align: right;
 }
