@@ -97,7 +97,7 @@ body {
   .date {
     text-align: right;
     padding-right: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 20%;
     
 }
   .date h2 {
@@ -108,10 +108,12 @@ body {
     font-size: 2em;
   }
   .invitation {
+    padding-top: 5%;
     text-align: right;
     
 }
   .invitation h2 {
+    padding-top: 15%;
     margin-left: 55%;
     margin-right: 5%;
     font-size: 1.5em;
