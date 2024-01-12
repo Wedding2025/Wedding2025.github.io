@@ -79,17 +79,19 @@ p {
 /* Медиа-запрос для мобильных устройств (iPhone, Android) */
 @media only screen and (max-width: 767px) {
   .bg {
-    height: auto;
+    height: 100%;
     background-size: cover;
   }
   .names {
     text-align: right;
+    margin-right: 3%;
   }
   .names h1 {
     font-size: 3em;
   }
   .date {
     text-align: right;
+    margin-right: 3%;
 }
   .date h2 {
     font-size: 2em;
@@ -100,6 +102,7 @@ p {
   }
   .invitation {
     width: 50%;
+    align-items: right;
     text-align: right;
 }
   .invitation h2 {
