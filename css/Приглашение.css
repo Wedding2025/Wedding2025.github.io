@@ -84,9 +84,12 @@ p {
   .names {
     text-align: right;
     margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
   .names h1 {
     font-size: 3em;
+    
   }
   .date {
     text-align: right;
@@ -95,12 +98,12 @@ p {
     
 }
   .date h2 {
-    font-size: 2em;
+    font-size: 1em;
     margin-bottom: 20%;
   }
 
   .date h3 {
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 20%;
   }
   .invitation {
