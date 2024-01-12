@@ -81,8 +81,17 @@ body {
 /* Медиа-запрос для мобильных устройств (iPhone, Android) */
 @media only screen and (max-width: 767px) {
   .bg {
+    width: 100vh;
     height: 100vh;
     background-size: cover;
+    line-height: 100vh;
+  }
+  .bg1 {
+    width: 50vh;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    height: 50vh;
   }
   .names {
     text-align: right;
@@ -112,7 +121,6 @@ body {
     
 }
   .invitation h2 {
-    padding-top: 25vh;
     margin-left: 55%;
     margin-right: 5%;
     font-size: 1.5em;
