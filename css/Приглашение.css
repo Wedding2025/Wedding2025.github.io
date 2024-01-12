@@ -82,20 +82,27 @@ p {
     height: auto;
     background-size: cover;
   }
-
-  .names h1 {
-    font-size: 4em;
+  .names {
+    text-align: right;
   }
-
-  .date h2 {
+  .names h1 {
     font-size: 3em;
+  }
+  .date {
+    text-align: right;
+}
+  .date h2 {
+    font-size: 2em;
   }
 
   .date h3 {
-    font-size: 4em;
-  }
-
-  .invitation h2 {
     font-size: 3em;
+  }
+  .invitation {
+    width: 50%;
+    text-align: right;
+}
+  .invitation h2 {
+    font-size: 2em;
   }
 }
