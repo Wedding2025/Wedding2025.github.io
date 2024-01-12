@@ -120,8 +120,9 @@ body {
     font-size: 1em;
   }
   .details h1 {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: "GOST";
     color: #7b5ca2;
     font-size: 1.2em;
