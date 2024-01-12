@@ -27,7 +27,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-image: url("../img/Фон4.jpg");
+    background-image: url("../img/Цветы.jpg");
 }
 
 .names {
@@ -81,7 +81,7 @@ body {
 /* Медиа-запрос для мобильных устройств (iPhone, Android) */
 @media only screen and (max-width: 767px) {
   .bg {
-    width: 100vh;
+    width: 100%;
     height: 100vh;
     background-size: cover;
     line-height: 100vh;
