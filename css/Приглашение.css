@@ -84,14 +84,14 @@ p {
   }
   .names {
     text-align: right;
-    margin-right: 3%;
+    padding-right: 3%;
   }
   .names h1 {
     font-size: 3em;
   }
   .date {
     text-align: right;
-    padding-bottom: 3%;
+    padding-right: 3%;
     padding-bottom: 3%;
 }
   .date h2 {
@@ -102,11 +102,11 @@ p {
     font-size: 3em;
   }
   .invitation {
-    width: -50%;
     align-items: right;
     text-align: right;
 }
   .invitation h2 {
+    width: 50%;
     font-size: 2em;
   }
 }
