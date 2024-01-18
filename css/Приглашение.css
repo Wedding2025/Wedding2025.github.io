@@ -169,6 +169,7 @@ body {
   }
   .dress_code h1 {
     margin-left: 5%;
+    margin-top: 10%;
     margin-bottom: 0%;
     font-size: 2em;
     font-family: "Scriptorama";
@@ -242,10 +243,40 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #202a6d;
+    background-color: #293894;
     margin: 0 10px; /* Расстояние между кружочками */
   }
   .wishes {
     margin-top: 10%;
+  }
+  .wishes h1 {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    font-family: "Scriptorama";
+    font-size: 2em;
+    color: #7b5ca2;
+  }
+  .wishes h2 {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-family: "GOST";
+    font-size: 1.2em;
+    color: #7b5ca2;
+  }
+  .icons {
+    margin: 0;
+    display: flex;
+    margin-bottom: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    width: 50px; /* Задайте размер иконки по вашему усмотрению */
+    height: 50px;
+    margin: 0 10px; /* Расстояние между иконками */
   }
 }
