@@ -167,6 +167,37 @@ body {
     text-align: center;
     font-size: 1.5em;
   }
+  .container {
+    background-color: #f5d6ff;
+    margin-bottom: 15%;
+  }
+  .event-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15%;
+  }
+  .event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .time {
+    font-size: 1.5em;
+    margin-right: 10%;
+    font-family: "GOST";
+  }
+  .icon2 {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .event-description h1 {
+    font-size: 1.5em;
+    width: 30px;
+    font-family: "GOST";
+  }
   .dress_code h1 {
     margin-left: 5%;
     margin-top: 10%;
@@ -248,6 +279,8 @@ body {
   }
   .wishes {
     margin-top: 10%;
+    background-color: #f5d6ff;
+    padding-bottom: 5%;
   }
   .wishes h1 {
     text-align: center;
