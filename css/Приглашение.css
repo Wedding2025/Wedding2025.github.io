@@ -88,7 +88,7 @@ body {
     background-image: url("../img/Листья.jpeg");
   }
   .bg1 {
-    width: 55vh;
+    width: 100%;
     line-height: normal;
     display: inline-block;
     vertical-align: middle;
@@ -122,7 +122,7 @@ body {
     
 }
   .invitation h2 {
-    margin-left: 25vh;
+    margin-left: 30vh;
     padding-right: 1vh;
     font-size: 2em;
   }
