@@ -267,6 +267,24 @@ body {
     font-size: 1.2em;
     color: #7b5ca2;
   }
+  .kiss h1 {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    font-family: "Scriptorama";
+    font-size: 2em;
+    color: #7b5ca2;
+  }
+  .kiss h2 {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-family: "GOST";
+    font-size: 1.2em;
+    color: #7b5ca2;
+  }
   .icons {
     margin: 0;
     display: flex;
@@ -275,13 +293,13 @@ body {
     align-items: center;
   }
   .icon {
-    width: 50px; /* Задайте размер иконки по вашему усмотрению */
+    width: 50px;
     height: 50px;
-    margin: 0 10px; /* Расстояние между иконками */
+    margin: 0 10px; 
   }
   .icon1 {
-    width: 40px; /* Задайте размер иконки по вашему усмотрению */
+    width: 40px; 
     height: 30px;
-    margin: 0 10px; /* Расстояние между иконками */
+    margin: 0 10px; 
   }
 }
