@@ -134,12 +134,14 @@ body {
     margin-top: 15%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 0%;
     font-family: "GOST";
     color: #7b5ca2;
     font-size: 1.2em;
     text-align: center;
 }
   .details h2 {
+    margin-top: 5%;
     margin-bottom: 0%;
     font-family: "Scriptorama";
     font-size: 3em;
@@ -164,6 +166,84 @@ body {
     color: #7b5ca2;
     text-align: center;
     font-size: 1.5em;
+  }
+  .dress_code h1 {
+    margin-left: 5%;
+    margin-bottom: 0%;
+    font-size: 2em;
+    font-family: "Scriptorama";
+    color: #7b5ca2;
+    text-align: center;
+  }
+  .dress_code h2 {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 1.2em;
+    font-family: "GOST";
+    color: #7b5ca2;
+    text-align: center;
+  }
+  .dress_code h3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 1.2em;
+    font-family: "GOST";
+    color: #7b5ca2;
+    text-align: center;
+  }
+  .color {
+    margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3%;
+  }
+  .circle1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #d7cbf3;
+    margin: 0 10px; /* Расстояние между кружочками */
+  }
+  .circle2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #b19be5;
+    margin: 0 10px; /* Расстояние между кружочками */
+  }
+  .circle3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #724eb5;
+    margin: 0 10px; /* Расстояние между кружочками */
+  }
+  .circle4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #a2cbf4;
+    margin: 0 10px; /* Расстояние между кружочками */
+  }
+  .circle5 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #6288dd;
+    margin: 0 10px; /* Расстояние между кружочками */
+  }
+  .circle6 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #202a6d;
+    margin: 0 10px; /* Расстояние между кружочками */
   }
   .wishes {
     margin-top: 10%;
