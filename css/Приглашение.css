@@ -33,7 +33,7 @@ body {
 .names {
     text-align: center;
     font-family: "Aquarelle";
-    color: #8b4f86;
+    color: #7b5ca2;
 }
 .names h1 {
     display: block;
@@ -47,7 +47,7 @@ body {
 }
 .date h2, h3, p{
     display: inline;
-    color: #8b4f86;
+    color: #7b5ca2;
     font-size: 5em;
 }
 .date h2 {
@@ -72,7 +72,7 @@ body {
 .invitation h2 {
     font-family: "Calligraphia";
     font-size: 5em;
-    color: #8b4f86;
+    color: #7b5ca2;
     margin-top: 0%;
     margin-bottom: -2%;
 }
