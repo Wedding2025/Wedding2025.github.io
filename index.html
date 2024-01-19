@@ -108,23 +108,35 @@
 <div class="icons">
     <img src="img/Поцелуй.png" alt="Иконка 1" class="icon">
 </div>
-<p>*Подтверждение*</p>
+<div class="button">
+    <h1>Вы придёте?</h1>
+    <h2>Пожалуйста подтвердите своё присутствие и пройдите небольшой опрос для вашего комфорта на нашем торжестве.</h2>
+    <button onclick="showIframe()">Подтвердить</button>
+
+    <iframe id="myIframe" src="https://docs.google.com/forms/d/e/1FAIpQLSc0BBYpuO094kuhyZPAzrj5AQQRt1IgUTHOin1My0e-LNnNkQ/viewform?embedded=true"  frameborder="0">Загрузка…</iframe>
+</div>
 <script>
     function openModal(imgPath) {
       var modal = document.getElementById("modal");
       var modalImg = document.getElementById("modalImg");
 
-      modal.style.display = "flex";
       modalImg.src = imgPath;
+      modal.classList.add("show");
 
       document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
     }
 
     function closeModal() {
       var modal = document.getElementById("modal");
-      modal.style.display = "none";
+      modal.classList.remove("show");
 
       document.body.style.overflow = "auto"; // Restore scrolling when modal is closed
+    }
+  </script>
+  <script>
+    function showIframe() {
+      var iframe = document.getElementById("myIframe");
+      iframe.style.display = "block";
     }
   </script>
 </body>
