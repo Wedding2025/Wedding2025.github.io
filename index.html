@@ -74,6 +74,23 @@
         <div class="circle5"></div>
         <div class="circle6"></div>
     </div>
+    <div class="photos">
+        <h1>Примеры:</h1>
+    <div class="gallery">
+        <img class="photo" src="img/Коллаж1.JPG" alt="Photo 1" onclick="openModal('img/Коллаж1.JPG')">
+        <img class="photo" src="img/Коллаж8.PNG" alt="Photo 2" onclick="openModal('img/Коллаж8.PNG')">
+        <img class="photo" src="img/Коллаж3.JPG" alt="Photo 3" onclick="openModal('img/Коллаж3.JPG')">
+        <img class="photo" src="img/Коллаж6.jpg" alt="Photo 3" onclick="openModal('img/Коллаж6.jpg')">
+        <img class="photo" src="img/Коллаж5.jpg" alt="Photo 3" onclick="openModal('img/Коллаж5.jpg')">
+        <img class="photo" src="img/Коллаж4.jpg" alt="Photo 3" onclick="openModal('img/Коллаж4.jpg')">
+        <img class="photo" src="img/Коллаж7.jpg" alt="Photo 3" onclick="openModal('img/Коллаж7.jpg')">
+        <img class="photo" src="img/Коллаж2.JPG" alt="Photo 3" onclick="openModal('img/Коллаж2.JPG')">
+      </div>
+    
+      <div class="modal" id="modal">
+        <img id="modalImg" onclick="closeModal()">
+      </div>
+</div>
 </div>
 <div class="wishes">
     <h1>О подарках</h1>
@@ -92,5 +109,23 @@
     <img src="img/Поцелуй.png" alt="Иконка 1" class="icon">
 </div>
 <p>*Подтверждение*</p>
+<script>
+    function openModal(imgPath) {
+      var modal = document.getElementById("modal");
+      var modalImg = document.getElementById("modalImg");
+
+      modal.style.display = "flex";
+      modalImg.src = imgPath;
+
+      document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
+    }
+
+    function closeModal() {
+      var modal = document.getElementById("modal");
+      modal.style.display = "none";
+
+      document.body.style.overflow = "auto"; // Restore scrolling when modal is closed
+    }
+  </script>
 </body>
 </html>
